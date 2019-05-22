@@ -2,15 +2,13 @@
 
 
 
-**开发原因：**使用sqliteStudio打开db数据库文件，导出不包含Excel表格选项：
+开发原因：使用sqliteStudio打开db数据库文件，导出格式仅支持HTML、JSON、PDF、SQL、XML，不包含Excel表格选项
 
-![1558525931392](images/1558525931392.png)
+使用语言：java
 
-**使用语言：**java
+JAVA环境：jdk1.8
 
-**JAVA环境：**jdk1.8
-
-**引用包：**/lib/jxl.jar、/lib/sqlite-jdbc-3.27.2.1.jar （位于本工程文件夹Lib文件夹内）
+引用包：/lib/jxl.jar、/lib/sqlite-jdbc-3.27.2.1.jar （位于本工程文件夹Lib文件夹内）
 
 **源代码：**/src/sqlsolve.java
 
@@ -24,23 +22,19 @@
 
 注：由网上提示，打包exe时推荐jre使用32位版本，因此在exe目录中放置jre 1.8 x32位包
 
-**exe4j打包过程：**
-
-**exe4j配置文件：**/out/exe4jconfig.exe4j
-
-![1558525983852](images/1558525983852.png)
-
-![1558526045559](images/1558526045559.png)
-
-使用相对路径，将jre 1.8 x32 放置和exe同一目录即可。
+exe4j配置文件：/out/exe4jconfig.exe4j
 
 
 
-**成品下载：**
+**含JRE成品下载：**
 
-​	含jre：https://github.com/neytao/sqlitetoExcel/blob/master/sqlitetoxls_jre/sqlitetoxls_jre.zip
+​	含jre1.8 x32（新手点这里）：https://github.com/neytao/sqlitetoExcel/blob/master/sqlitetoxls_jre/sqlitetoxls_jre.zip
 
-​	无jre：https://github.com/neytao/sqlitetoExcel/blob/master/sqlitetoxls_without_jre/sqlitetoxls_without_jre.zip
+**不含JRE成品下载：**
+
+​	无jre1.8 x32：https://github.com/neytao/sqlitetoExcel/blob/master/sqlitetoxls_without_jre/sqlitetoxls_without_jre.zip
+
+​	注：需将本机jre 1.8 x32 文件夹复制到与exe相同目录
 
 **使用方法：**
 
