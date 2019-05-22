@@ -38,10 +38,12 @@
 
 **成品下载：**
 
-​	含jre：
+​	含jre：https://github.com/neytao/sqlitetoExcel/blob/master/sqlitetoxls_jre/sqlitetoxls_jre.zip
 
-​	无jre：
+​	无jre：https://github.com/neytao/sqlitetoExcel/blob/master/sqlitetoxls_without_jre/sqlitetoxls_without_jre.zip
 
-**效果演示：**
+**使用方法：**
+
+​	将需要转换为excel的db文件放置在本工具exe同一目录下即可。
 
 ​	
