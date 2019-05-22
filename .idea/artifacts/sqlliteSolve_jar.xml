@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="sqlliteSolve:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/sqlliteSolve_jar</output-path>
+    <root id="archive" name="sqlliteSolve.jar">
+      <element id="module-output" name="sqliteSolvetoExcel" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/sqlite-jdbc-3.27.2.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/jxl.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
