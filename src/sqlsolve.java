@@ -12,6 +12,15 @@ import jxl.write.WritableSheet;
 import jxl.write.WritableWorkbook;
 import jxl.write.WriteException;
 
+/*
+* github项目地址：https://github.com/neytao/sqlitetoExcel
+* 作者：neytao
+* 使用方法：
+* 1、运行程序
+* 2、将db文件放置在/sqliteSolvetoExcel/目录下
+* 3、完成Excel转换
+* */
+
 public class sqlsolve {
 
     public static WritableWorkbook workbook;
