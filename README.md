@@ -1,14 +1,12 @@
-项目地址：<https://github.com/neytao/sqlitetoExcel>
+**项目地址：**<https://github.com/neytao/sqlitetoExcel>
 
+**开发原因：**使用sqliteStudio打开db数据库文件，导出格式仅支持HTML、JSON、PDF、SQL、XML，不包含Excel表格选项
 
+**使用语言：**java
 
-开发原因：使用sqliteStudio打开db数据库文件，导出格式仅支持HTML、JSON、PDF、SQL、XML，不包含Excel表格选项
+**JAVA环境：**jdk1.8
 
-使用语言：java
-
-JAVA环境：jdk1.8
-
-引用包：/lib/jxl.jar、/lib/sqlite-jdbc-3.27.2.1.jar （位于本工程文件夹Lib文件夹内）
+**引用包：**/lib/jxl.jar、/lib/sqlite-jdbc-3.27.2.1.jar 
 
 **源代码：**/src/sqlsolve.java
 
